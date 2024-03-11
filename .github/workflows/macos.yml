@@ -36,7 +36,7 @@ jobs:
         config:
           - { os: macOS-latest, r: "release" }
           - { os: macOS-11, r: "release" }
-          - { os: macOS-13 r: "release" }
+          - { os: macOS-13, r: "release" }
           - { os: macOS-14, r: "release" }
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
